@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16347" started-at="2019-01-27T19:57:53Z" finished-at="2019-01-27T19:58:09Z">
+  <suite name="Suite" duration-ms="8437" started-at="2019-01-27T21:00:15Z" finished-at="2019-01-27T21:00:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16347" started-at="2019-01-27T19:57:53Z" finished-at="2019-01-27T19:58:09Z">
-      <class name="SMB.HomePage">
-        <test-method status="PASS" signature="MNT_Home_Page()[pri:0, instance:SMB.HomePage@8bd1b6a]" name="MNT_Home_Page" duration-ms="16305" started-at="2019-01-27T19:57:53Z" finished-at="2019-01-27T19:58:09Z">
+    <test name="Test" duration-ms="8437" started-at="2019-01-27T21:00:15Z" finished-at="2019-01-27T21:00:24Z">
+      <class name="SMB.Landing_Page_Validation_Tittle">
+        <test-method status="PASS" signature="HomePage_Tittle_Validation()[pri:0, instance:SMB.Landing_Page_Validation_Tittle@724af044]" name="HomePage_Tittle_Validation" duration-ms="8405" started-at="2019-01-27T21:00:15Z" finished-at="2019-01-27T21:00:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MNT_Home_Page -->
-      </class> <!-- SMB.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- HomePage_Tittle_Validation -->
+      </class> <!-- SMB.Landing_Page_Validation_Tittle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
