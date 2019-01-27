@@ -16,23 +16,24 @@ public class HomePage {
 	public WebDriver Driver;
 	
 
-@Test
-	public  void MNT_Home_Page() {
+
 	
-		Driver.get("https://www.weightwatchers.com/");
+	@Test
+	public static void MNT_Home_Page() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		// launch application
+		driver.get("https://www.weightwatchers.com/us/");
 		// verify title
-		String title = Driver.getTitle();
-		System.out.print(title);
-     	Assert.assertEquals(title, "WW (Weight Watchers): Weight Loss & Wellness Help");
-    	System.out.println("Landing Page Title  Verified " + title);
-//		// click on find location
+		String title = driver.getTitle();
+		Assert.assertEquals(title, "WW (Weight Watchers): Weight Loss & Wellness Help");
+		System.out.println("Landing Page Title  Verified "+ title);
+	
+		
 //		
-//		Assert.assertEquals(titlematched, true);
-//		System.out.println("Find a Studio & Meeting Near You | WW USA" + " Title  Verified ");
-//		// print out title from first result and distance
-//		driver.findElement(By.id("meetingSearch")).sendKeys("10011");
 //		
-//		// Print the title of the first result and the distance
 		
 		
 	} // Weekdays

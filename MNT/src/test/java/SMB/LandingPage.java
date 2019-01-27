@@ -6,8 +6,7 @@ public class LandingPage {
 	@Test
 	public static void HomePage_Tittle_Validation() throws InterruptedException {
 
-	Base.MNT_Launch_Url();
-	
+	HomePage.MNT_Home_Page();
 	
 	}
 }
