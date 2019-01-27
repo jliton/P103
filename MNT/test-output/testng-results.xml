@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13253" started-at="2019-01-27T09:45:58Z" finished-at="2019-01-27T09:46:11Z">
+  <suite name="Suite" duration-ms="13574" started-at="2019-01-27T09:50:45Z" finished-at="2019-01-27T09:50:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13253" started-at="2019-01-27T09:45:58Z" finished-at="2019-01-27T09:46:11Z">
+    <test name="Test" duration-ms="13574" started-at="2019-01-27T09:50:45Z" finished-at="2019-01-27T09:50:58Z">
       <class name="SMB.LandingPage">
-        <test-method status="PASS" signature="abc()[pri:0, instance:SMB.LandingPage@724af044]" name="abc" duration-ms="13225" started-at="2019-01-27T09:45:58Z" finished-at="2019-01-27T09:46:11Z">
+        <test-method status="PASS" signature="HomePage_Tittle_Validation()[pri:0, instance:SMB.LandingPage@724af044]" name="HomePage_Tittle_Validation" duration-ms="13540" started-at="2019-01-27T09:50:45Z" finished-at="2019-01-27T09:50:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- abc -->
+        </test-method> <!-- HomePage_Tittle_Validation -->
       </class> <!-- SMB.LandingPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
