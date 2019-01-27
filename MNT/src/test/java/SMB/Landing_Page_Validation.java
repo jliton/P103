@@ -2,7 +2,9 @@ package SMB;
 
 import org.testng.annotations.Test;
 
-public class LandingPage {
+import PageObject.HomePage;
+
+public class Landing_Page_Validation {
 	@Test
 	public static void HomePage_Tittle_Validation() throws InterruptedException {
 

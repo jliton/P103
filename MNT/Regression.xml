@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="SMB.LandingPage"/>
+      <class name="SMB.Landing_Page_Validation"/>
       
     </classes>
   </test> <!-- Test -->

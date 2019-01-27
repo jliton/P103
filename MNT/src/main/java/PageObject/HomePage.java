@@ -1,4 +1,4 @@
-package SMB;
+package PageObject;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
