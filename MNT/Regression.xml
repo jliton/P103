@@ -3,9 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="SMB.MNT.BizPayTest"/>
-      <class name="SMB.MNT.OBBLoginTest"/>
-      <class name="SMB.MNT.VendorPaymentTest"/>
+      <class name="SMB.ach"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
