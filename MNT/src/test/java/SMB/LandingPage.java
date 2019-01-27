@@ -4,9 +4,10 @@ import org.testng.annotations.Test;
 
 public class LandingPage {
 	@Test
-	public void HomePage_Tittle_Validation() throws InterruptedException {
+	public static void HomePage_Tittle_Validation() throws InterruptedException {
 
-		HomePage.Verfication();
+	Base.MNT_Launch_Url();
+	
 	
 	}
 }
