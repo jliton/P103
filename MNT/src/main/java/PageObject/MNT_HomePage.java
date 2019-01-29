@@ -35,8 +35,8 @@ public class MNT_HomePage {
 		driver.get("https://Google.com");
 		// verify title
 		String title = driver.getTitle();
-		//Assert.assertEquals(title, "WW (Weight Watchers): Weight Loss & Wellness Help");
-		System.out.println("Landing Page Title v :- "+ title);
+		Assert.assertEquals(title, "Google");
+		System.out.println("Landing Page Title Validated :- "+ title);
 	
 		
 //		
