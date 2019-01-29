@@ -22,7 +22,7 @@ public class MNT_HomePage {
 	
 	public WebDriver Driver;
 	
-
+    
 
 	
 	@Test
@@ -34,12 +34,13 @@ public class MNT_HomePage {
 		// launch application
 		driver.get("https://Google.com");
 		// verify title
-		String title = driver.getTitle();
+		  String title = driver.getTitle();
+		
 		Assert.assertEquals(title, "Google");
-		if (title=="Google"){
+
 		System.out.println("Landing Page Title Validated :- "+ title);
 	
-		}
+	
 //		
 //		
 		
