@@ -36,9 +36,10 @@ public class MNT_HomePage {
 		// verify title
 		String title = driver.getTitle();
 		Assert.assertEquals(title, "Google");
+		if (title=="Google"){
 		System.out.println("Landing Page Title Validated :- "+ title);
 	
-		
+		}
 //		
 //		
 		
