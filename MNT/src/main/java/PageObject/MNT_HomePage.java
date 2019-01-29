@@ -32,7 +32,7 @@ public class MNT_HomePage {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		// launch application
-		driver.get("https://www.mtb.com/home-page");
+		driver.get("https://Google.com");
 		// verify title
 		String title = driver.getTitle();
 		//Assert.assertEquals(title, "WW (Weight Watchers): Weight Loss & Wellness Help");
