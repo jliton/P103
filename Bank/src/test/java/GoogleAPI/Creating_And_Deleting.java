@@ -23,8 +23,10 @@ public class Creating_And_Deleting {
 	@BeforeTest
 	public void getData() throws IOException {
 
-		FileInputStream fis = new FileInputStream(
-				"C:\\Users\\Jabed\\CapitalOneBank\\Bank\\src\\main\\java\\File\\Env.properties");
+		
+		  
+		
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\Bank\\src\\main\\java\\File\\Env.properties");
 		pro.load(fis);
 
 	}
